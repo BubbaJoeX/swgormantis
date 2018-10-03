@@ -5,13 +5,13 @@ html {
 *:not(i) {
     font-family: 'IBM Plex Sans' !important;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 body {
     font-family: 'IBM Plex Sans' !important;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     background-color: #ffffff !important
 }
 
@@ -85,7 +85,10 @@ body {
 }
 
 .label {
-    background-color: #7272ab !important
+    background-color: #7272ab !important;
+    color: white;
+    border-radius: 18px;
+    padding: 3px 10px;
 }
 
 .label:before {
@@ -580,4 +583,13 @@ a i {
 
 .navbar .navbar-brand {
     color: white !important;
+}
+
+.page-header h1 {
+    color: #4a4a4a;
+}
+
+
+.label.arrowed {
+    border-radius: 0 18px 18px 0;
 }
