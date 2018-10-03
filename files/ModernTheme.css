@@ -2,8 +2,16 @@ html {
     background-color: #ffffff !important
 }
 
+*:not(i) {
+    font-family: 'IBM Plex Sans' !important;
+    font-style: normal;
+    font-weight: 200;
+}
+
 body {
-    font-family: "Open Sans" !important;
+    font-family: 'IBM Plex Sans' !important;
+    font-style: normal;
+    font-weight: 200;
     background-color: #ffffff !important
 }
 
@@ -255,7 +263,7 @@ body {
 
 .widget-toolbox {
     border: 0 !important;
-    background-color: #ccc !important;
+    background-color: #eee !important;
     border-color: transparent !important
 }
 
@@ -522,7 +530,7 @@ input[type="file"] {
 }
 
 a i {
-    color: white !important;
+    color: #bbb !important;
 }
 
 .lead {
@@ -567,5 +575,9 @@ a i {
 }
 
 .ace-nav > li > a > .ace-icon {
+    color: white !important;
+}
+
+.navbar .navbar-brand {
     color: white !important;
 }
