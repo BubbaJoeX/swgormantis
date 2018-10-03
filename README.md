@@ -1,6 +1,6 @@
 # Mantis Bugtracker Modern Theme
 
-![MantisBTModernTheme Screenshot](files/MantisBTModernThemePlex_Screenshot.png)
+![MantisBTModernTheme Screenshot](files/MantisBTModernTheme_Screenshot_2.png)
 
 ## About
 
