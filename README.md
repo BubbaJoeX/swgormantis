@@ -9,8 +9,4 @@ Based on https://github.com/Tagirijus/MantisBTDarkTheme
 
 ## Installation
 
-Upload the whole folder into your `plugins/` folder in the mantis installation so that you e.g. have `MANTIS_INSTALLATION/plugins/MantisBTDarkTheme/MantisBTDarkTheme.php`. After that the plugin should show up on the `manage_plugin_page.php` page in the mantis settings. There you can simply install it to activate it.
-
-## Changelog
-
-You can view the changelog [here: CHANGELOG.md](CHANGELOG.md).
+Upload the whole folder into your `plugins/` folder in the mantis installation so that you e.g. have `MANTIS_INSTALLATION/plugins/MantisBTModernTheme/MantisBTDarkTheme.php`. After that the plugin should show up on the `manage_plugin_page.php` page in the mantis settings. There you can simply install it to activate it.
