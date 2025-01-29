@@ -23,7 +23,7 @@ class MantisBTModernThemePlugin extends MantisPlugin {
   }
 
     function add_css($p_event) {
-        echo '<link rel="stylesheet" type="text/css" href="files/ModernTheme.css" />' . "\n";
+        echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('ModernTheme.css') . '" />' . "\n";
     }
 
 

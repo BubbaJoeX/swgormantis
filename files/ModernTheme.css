@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'PlanetSide2', serif !important; /* Custom font for Star Wars-like feel */
+    font-family: 'Planetside2 DemiBold', serif !important; /* Custom font for Star Wars-like feel */
     font-style: normal;
     font-weight: 400;
     background-color: #121212 !important; /* Consistent background color */
@@ -15,7 +15,7 @@ body {
 }
 
 *:not(i) {
-    font-family: 'PlanetSide2', serif !important;
+    font-family: 'Planetside2 DemiBold', serif !important;
     font-style: normal;
     font-weight: 400;
 }
@@ -140,7 +140,7 @@ h2, h3 {
 }
 
 .card-title {
-    font-family: 'PlanetSide2', serif;
+    font-family: 'Planetside2 DemiBold', serif;
     font-size: 1.5em;
     color: #ffcc00;
 }
