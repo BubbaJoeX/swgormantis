@@ -613,5 +613,5 @@ a i {
 
 @font-face {
     font-family: 'PlanetSide2';
-    src: url('fonts/PlanetSide2.ttf') format('truetype');
+    src: url('fonts/PlanetSide2/PlanetSide2.ttf') format('truetype');
 }
