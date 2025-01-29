@@ -1,5 +1,17 @@
+/* Base Styles */
 html {
-    background-color: #ffffff !important
+    background-color: #121212 !important; /* Dark background for a more sci-fi theme */
+}
+
+body {
+    font-family: 'PlanetSide2', serif !important; /* Custom font for Star Wars-like feel */
+    font-style: normal;
+    font-weight: 400;
+    background-color: #121212 !important; /* Consistent background color */
+    color: #e0e0e0; /* Light text color to contrast with dark background */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 *:not(i) {
@@ -8,14 +20,127 @@ html {
     font-weight: 400;
 }
 
-body {
-    font-family: 'PlanetSide2', serif !important;
-    font-style: normal;
-    font-weight: 400;
-    background-color: #ffffff !important
+/* Header Section */
+#banner {
+    background-color: #1c1c1c; /* Dark background for header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Subtle shadow to lift the header */
 }
 
+#banner img {
+    width: 200px;
+    height: auto;
+}
+
+/* Links */
+a {
+    color: #ffcc00; /* Gold color to reflect Star Wars aesthetics */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #ff5500; /* Red/orange for a futuristic effect */
+    text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #e0e0e0;
+}
+
+#footer a:hover {
+    color: #ff5500;
+}
+
+/* Container for Elements */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #ff5500; /* Star Wars-inspired button color */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover, .btn:hover {
+    background-color: #e63a00; /* Slightly darker button effect */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
+/* Custom Fonts: PlanetSide2 */
 @font-face {
     font-family: 'PlanetSide2';
     src: url('fonts/PlanetSide2/PlanetSide2.ttf') format('truetype');
+}
+
+/* Additional styling for sci-fi effect */
+h1, h2, h3 {
+    font-family: 'PlanetSide2', serif;
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.4); /* Soft glow text effect */
+}
+
+h1 {
+    color: #ffcc00; /* Gold color */
+    font-size: 2.5em;
+}
+
+h2, h3 {
+    color: #e0e0e0;
+    font-size: 1.8em;
+}
+
+/* Utility Classes for Sci-Fi Backgrounds */
+.bg-sci-fi {
+    background: linear-gradient(145deg, #1d1d1d, #373737); /* Deep sci-fi gradient */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.bg-dark {
+    background-color: #1e1e1e; /* Additional dark theme color */
+}
+
+.card {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.card-title {
+    font-family: 'PlanetSide2', serif;
+    font-size: 1.5em;
+    color: #ffcc00;
 }
