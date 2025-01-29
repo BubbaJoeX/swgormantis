@@ -3,8 +3,8 @@
 class MantisBTModernThemePlugin extends MantisPlugin {
 
   function register() {
-    $this->name        = 'MantisBT Modern Theme';
-    $this->description = 'A clean theme for MantisBT.';
+    $this->name        = 'SWG - OR Mantis Theme';
+    $this->description = 'A SWG theme for MantisBT.';
 
     $this->version     = '1.0.1';
     $this->requires    = array(
@@ -22,10 +22,13 @@ class MantisBTModernThemePlugin extends MantisPlugin {
     );
   }
 
-  function add_css($p_event) {
-      echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('ModernTheme.css') . '" />' . "\n";
-      echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('fonts/css/ibm-plex.min.css') . '" />' . "\n";
+    function add_css($p_event) {
+        echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('ModernTheme.css') . '" />' . "\n";
+        echo '<link rel="stylesheet" type="text/css" href="' . plugin_file('fonts/css/ibm-plex.min.css') . '" />' . "\n";
+        echo '<link rel="preconnect" href="https://fonts.googleapis.com">' . "\n";
+        echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
+        echo '<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">' . "\n";
+    }
 
-  }
 
 }

@@ -3,13 +3,13 @@ html {
 }
 
 *:not(i) {
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'PlanetSide2', serif !important;
     font-style: normal;
     font-weight: 400;
 }
 
 body {
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'PlanetSide2', serif !important;
     font-style: normal;
     font-weight: 400;
     background-color: #ffffff !important
@@ -609,4 +609,9 @@ a i {
 
 .label.arrowed {
     border-radius: 0 18px 18px 0;
+}
+
+@font-face {
+    font-family: 'PlanetSide2';
+    src: url('fonts/PlanetSide2.ttf') format('truetype');
 }
