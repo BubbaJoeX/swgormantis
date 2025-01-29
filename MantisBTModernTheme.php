@@ -3,17 +3,17 @@
 class MantisBTModernThemePlugin extends MantisPlugin {
 
   function register() {
-    $this->name        = 'SWG - OR Mantis Theme';
+    $this->name        = 'SWG - OR Theme';
     $this->description = 'A SWG theme for MantisBT.';
 
-    $this->version     = '1.0.1';
+    $this->version     = '1.0.0';
     $this->requires    = array(
-      'MantisCore'       => '2.0.0',
+      'MantisCore'       => '2.27',
     );
 
-    $this->author      = 'Pol Maresma';
-    $this->contact     = 'pol@polnetwork.com';
-    $this->url         = 'http://www.polnetwork.com';
+    $this->author      = 'SWG - OR';
+    $this->contact     = 'contact@swgor.com';
+    $this->url         = 'https://swgor.com';
   }
 
   function hooks() {
